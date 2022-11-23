@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cup"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/qatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qatar"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/equador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Equador"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/brazil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Brazil"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/england"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="England"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/teamSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Team"
+        android:textSize="20dp"
+        android:textAlignment="textStart"
+        android:layout_marginTop="15dp"
+        android:textColor="#63FF00"
+        android:layout_marginLeft="10dp"
+        />
+
+    <EditText
+        android:id="@+id/team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your team"
+        android:textSize="20dp"
+        android:backgroundTint="#00B8D4"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/teamPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Player"
+        android:textSize="20dp"
+        android:textAlignment="textStart"
+        android:layout_marginTop="15dp"
+        android:textColor="#63FF00"
+        android:layout_marginLeft="10dp"
+
+        />
+    <EditText
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your player"
+        android:textSize="20dp"
+        android:backgroundTint="#00B8D4"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/stadiums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STADIUMS"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
